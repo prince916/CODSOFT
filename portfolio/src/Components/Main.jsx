@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <>
       <div className="mypic">
-        <img src="./images/iamprince.jpg" alt="" />
+        <img className="myself" src="./images/Myself.png" alt="mypic" />
 
         <div className="textcontent">
           <h1>

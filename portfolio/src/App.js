@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
 import Main from './Components/Main';
 import Footer from './Components/Footer';
-import Home from './pages/Home';
 
 function App() {
   return (
@@ -11,7 +9,6 @@ function App() {
       <Navbar />
       <Main />
       <br></br>
-      <Home />
       {/* 
       <Education />
       <Experience />
