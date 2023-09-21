@@ -24,8 +24,6 @@ const Navbar = () => {
         <li>
           <a href="#">Contact</a>
         </li>
-        <button className="mode" >Mode</button>
-
       </div>
 
     </div>
