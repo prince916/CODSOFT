@@ -4,26 +4,28 @@ const Main = () => {
   return (
     <>
       <div className="mypic">
-        <img className="myself" src="./images/Myself.png" alt="mypic" />
+        <img className="myself" src="./images/Mypic3.png" alt="mypic" />
 
         <div className="textcontent">
           <h1>
-            Hii... <br /> I am PRINCE KUMAR SHRAMA
+            Hi there 
+            I'm PRINCE <br />
+            <span className="newtext">a Developer </span>
           </h1>
           <div className="Symbols">
             <img src="./images/engineer.png" alt="" />
             <img src="./images/app-development.png" alt="" />
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
-            impedit laboriosam quaerat necessitatibus, voluptatum aspernatur
-            fuga, voluptas rem aliquam dolorum eaque quas quis. Quisquam illum
-            necessitatibus molestias voluptate veniam dolorem!
+            I should be hired for this role because of my relevant skills,
+            experience, and passion for the industry. I’ve researched the
+            company and can add value to its growth. My positive attitude, work
+            ethics, and long-term goals align with the job requirements, making
+            me a committed and valuable asset to the company.
           </p>
           <button>Download Resume</button>
         </div>
       </div>
-      
     </>
   );
 };

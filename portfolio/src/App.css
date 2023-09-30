@@ -14,7 +14,7 @@
 }
 
 body{
-  background-color: #4e4d4d;
+  background-color: #2a2727;
   color: #ffff;
 }
 
@@ -28,11 +28,12 @@ body{
 .mypic img{
   height:400px;
   width: 400px;
+  border-radius: 50%;
+  object-fit: cover;
   margin: 30px;
-  padding: 0px;
-  margin-left: 100px;
-  border: #282c34 1px 1px;
-  box-shadow: #282c34 5px 5px 8px 8px;
+  padding: 12px 0px 0px 15px;
+  margin-left: 150px;
+  box-shadow: #232023 5px 5px 8px 8px;
 }
 
 .mypic h1{
@@ -40,20 +41,20 @@ body{
 }
 
 .mypic h1:hover{
-  color: rgb(194, 7, 7);
+  color: lightgray;
   transition: all;
   transition-duration: 0.5s;
 }
 
 .textcontent{
-  width: 700px;
+  width: 600px;
 }
 
 .textcontent button{
   height: 60px;
   width: 170px;
   margin-top: 20px;
-  background-color: rgb(30, 235, 19);
+  background-color: rgb(159, 75, 185);
   border: none;
   text-align: center;
   font-size: 14px;
@@ -63,7 +64,6 @@ body{
 }
 
 .textcontent button:hover{
-  background-color: rgb(5, 114, 11);
   color: #ffff;
   font-size: 20px;
   transition: all;
@@ -112,5 +112,10 @@ body{
 
 .port:hover{
   color: #ffff;
+}
+
+.newtext{
+  font-size: 24px;
+  color: #ac9292;
 }
 
