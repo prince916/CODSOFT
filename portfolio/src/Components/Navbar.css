@@ -25,15 +25,14 @@
 
 li a {
   display: block;
-  color: rgb(0, 0, 0);
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #70e96a;
-  color: red;
+  background-color: #a252ae;
 }
 
 .active {

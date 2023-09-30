@@ -7,6 +7,7 @@ const Navbar = () => {
     <div className="Container">
       <div className="logo">
         <img src="./images/collaborative.png" />
+        <span className="port">PORTFOLIO</span>
       </div>
       <div className="Nav-Content">
         <li>
