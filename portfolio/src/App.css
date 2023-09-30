@@ -14,27 +14,29 @@
 }
 
 body{
-  background-color: #000000;
+  background-color: #4e4d4d;
   color: #ffff;
 }
 
 .mypic{
   display: flex;
   align-content: center;
+  align-items: center;
   gap: 30px;
 }
 
 .mypic img{
   height:400px;
-  width: 370px;
+  width: 400px;
   margin: 30px;
-  padding: 3px;
+  padding: 0px;
   margin-left: 100px;
-  box-shadow: #6c82b1 1px 1px 2px 2px;
+  border: #282c34 1px 1px;
+  box-shadow: #282c34 5px 5px 8px 8px;
 }
 
 .mypic h1{
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .mypic h1:hover{
@@ -44,7 +46,7 @@ body{
 }
 
 .textcontent{
-  width: 600px;
+  width: 700px;
 }
 
 .textcontent button{
@@ -70,8 +72,8 @@ body{
 }
 
 .Symbols img{
-  height: 45px;
-  width: 45px;
+  height: 60px;
+  width: 60px;
   box-shadow: none;
   animation: none;
   padding: 10px 20px 10px 20px;
@@ -93,6 +95,22 @@ body{
 }
 
 .footer a{
+  color: #ffff;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.port{
+  padding-top: 8px;
+  color: lightgray;
+  cursor: pointer;
+}
+
+.port:hover{
   color: #ffff;
 }
 
