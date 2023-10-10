@@ -8,12 +8,6 @@ function App() {
     <div className='container'>
       <Navbar />
       <Main />
-      <br></br>
-      {/* 
-      <Education />
-      <Experience />
-      <Works/> 
-      <Contact/>*/}
       <Footer />
     </div>
   );
